@@ -23,7 +23,7 @@
 export function getWeatherAdvice(temperature, isRaining) {
   // Your code here
 
-  if (typeof temperature !== 'number' && typeof isRaining !== 'boolean') return -1;
+  if (typeof temperature !== 'number' || typeof isRaining !== 'boolean') return -1;
 
   if (temperature >= 35 && !isRaining) {
     return `Too hot for hiking - stay indoors and hydrate`;
