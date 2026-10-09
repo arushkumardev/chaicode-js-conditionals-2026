@@ -2,6 +2,12 @@
 
 Master JavaScript conditionals through **12 real-world, story-based challenges**. Each question puts you in a scenario where you need to write the logic using `if/else`, `switch`, ternary operators, and logical operators.
 
+
+## run a single task via this command 
+`
+npm test tests/05-library-card.spec.js
+`
+
 **Total: 166 tests across 12 challenges = 100 points**
 
 ---
